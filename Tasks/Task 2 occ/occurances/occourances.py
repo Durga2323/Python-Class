@@ -16,7 +16,7 @@
 #     print(A2)
 # elif o == 3:
 #     print(A3)
-# elif o == 4:
+# elif o == 4: # checking after reinstall
 #     print(A4)
 # else:
 #     print("a is occured only",name.count("a"),"times, try with the value <=", name.count("a"),".")
