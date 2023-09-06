@@ -1,0 +1,74 @@
+02/3:-
+
+GIT -- Code verson controller..
+
+> github.com
+> bitbucket.com
+> gitlab.com
+
+# 2 things are required....
+    >installation of git
+    >account creation of git
+
+# repositry : Folder inside the git..
+
+    # Local Repository : Repository(folder) in the local system.
+    # Remote Repository : Repository(folder) in the git account.
+
+# git commands:-
+    step1:-
+        # git init -- initilization of git..
+    step2:-
+        # git status -- to check the status of the git local Repository..
+    step3:-
+        # adding the code to the local Repository..
+        # git add file-name1 file_name2
+                    or
+        # git add .   --> for adding all the Repository
+    step4:-
+        # commiting your changes to the local Repository..
+        # git commit -m "sample message"
+  # ex:-# git commit -m "first time push"
+
+If you are doing the commit in the device for thr=e first time it shows some credentials error.. 
+    git config --global user.email "your git-hub email"
+    git config --global user.name "your git-hub username"
+
+    step5:-
+        # Adding the remote repository origin.. 
+        # git remote add origin https://github.com/Durga2323/python-9am.git
+    step6:- push the code to the repository..
+        # git push origin branch-name
+        # git push origin master --> the default main branch name is master.. 
+03/2:-
+
+    step7:- Taking the updated code from the remote Repository..
+        # git pull origin branch-name
+        # git pull origin master
+
+    step8:- To get back to the previous commit.
+        # git checkout commit-id 
+
+## creating the new branch..
+    git checkout -b branch-name
+    git checkout -b 1234-login-functionality
+
+
+## revert back the changes younhave made in the local repository
+    # git checkout file-name --> this will remove all the changes that made on the described file.. 
+    # git checkout .  --> this will remove all the changes that made on all the files
+
+## Cloning other Repository code for the first time..
+    # git clone Repository-link
+    # git clone https://github.com/arpitj07/Python-GUI.git
+
+## listing the branches
+    # git branch
+
+## Switching the branches in the repository
+    # git switch branch-name
+    # git switch 1234-login-functionality
+    
+
+
+
