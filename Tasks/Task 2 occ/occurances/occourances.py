@@ -1,6 +1,6 @@
-# name = input("enter your string")
+# name = input("enter your string : ")
 
-# o = eval(input("which occurance of a :"))
+# o = eval(input("which occurance of a : "))
 
 # A1= name.index("a")
 
@@ -53,6 +53,7 @@ if z != -1:
     occurrences = string.count(character)
 
     print(f"No of {character}'s found in the entered string: ", occurrences)
+    
     if occurance <= occurrences:
         start_index = -1
         for _ in range(occurance):
